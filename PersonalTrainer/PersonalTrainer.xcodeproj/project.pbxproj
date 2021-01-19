@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2953B62398872A00324363 /* WorkoutDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2953B52398872A00324363 /* WorkoutDatabase.swift */; };
+		3F5316F423985578002D5F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5316F323985578002D5F94 /* AppDelegate.swift */; };
+		3F5316F623985578002D5F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5316F523985578002D5F94 /* ViewController.swift */; };
+		3F5316F923985578002D5F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5316F723985578002D5F94 /* Main.storyboard */; };
+		3F5316FB23985584002D5F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5316FA23985584002D5F94 /* Assets.xcassets */; };
+		3F5316FE23985584002D5F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5316FC23985584002D5F94 /* LaunchScreen.storyboard */; };
+		3F691B82239AE5AF0096DFDA /* DetailOfPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F691B81239AE5AF0096DFDA /* DetailOfPart.swift */; };
+		3F691B86239AEED60096DFDA /* barbell shoulder press.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F691B85239AEED50096DFDA /* barbell shoulder press.png */; };
+		3F691B8D239B058B0096DFDA /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F691B8B239B058A0096DFDA /* left.png */; };
+		3F691B8E239B058B0096DFDA /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F691B8C239B058B0096DFDA /* right.png */; };
+		3F691B90239B125E0096DFDA /* MakeMyRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F691B8F239B125E0096DFDA /* MakeMyRoutine.swift */; };
+		3F691B94239B33DD0096DFDA /* side lateral raise.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F691B93239B33DD0096DFDA /* side lateral raise.png */; };
+		3F691B96239B35070096DFDA /* armpit row.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F691B95239B35070096DFDA /* armpit row.png */; };
+		3F8BBECB239EBCDE00B070DF /* barbell bench press.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BBECA239EBCDE00B070DF /* barbell bench press.png */; };
+		3F8BBED0239EBD3F00B070DF /* lat pull down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BBECC239EBD3900B070DF /* lat pull down.png */; };
+		3F8BBED1239EBD3F00B070DF /* smith machine squat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BBECD239EBD3C00B070DF /* smith machine squat.png */; };
+		3F8BBED3239EBD3F00B070DF /* pull up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BBECF239EBD3F00B070DF /* pull up.png */; };
+		3F8BBED5239EBECA00B070DF /* barbell deadlift.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BBED4239EBECA00B070DF /* barbell deadlift.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2953B52398872A00324363 /* WorkoutDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDatabase.swift; sourceTree = "<group>"; };
+		3F5316F023985578002D5F94 /* PersonalTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5316F323985578002D5F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F5316F523985578002D5F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F5316F823985578002D5F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F5316FA23985584002D5F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5316FD23985584002D5F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F5316FF23985584002D5F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F691B81239AE5AF0096DFDA /* DetailOfPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfPart.swift; sourceTree = "<group>"; };
+		3F691B85239AEED50096DFDA /* barbell shoulder press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbell shoulder press.png"; sourceTree = "<group>"; };
+		3F691B8B239B058A0096DFDA /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		3F691B8C239B058B0096DFDA /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		3F691B8F239B125E0096DFDA /* MakeMyRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMyRoutine.swift; sourceTree = "<group>"; };
+		3F691B93239B33DD0096DFDA /* side lateral raise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "side lateral raise.png"; sourceTree = "<group>"; };
+		3F691B95239B35070096DFDA /* armpit row.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "armpit row.png"; sourceTree = "<group>"; };
+		3F8BBECA239EBCDE00B070DF /* barbell bench press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbell bench press.png"; sourceTree = "<group>"; };
+		3F8BBECC239EBD3900B070DF /* lat pull down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lat pull down.png"; sourceTree = "<group>"; };
+		3F8BBECD239EBD3C00B070DF /* smith machine squat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smith machine squat.png"; sourceTree = "<group>"; };
+		3F8BBECF239EBD3F00B070DF /* pull up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull up.png"; sourceTree = "<group>"; };
+		3F8BBED4239EBECA00B070DF /* barbell deadlift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbell deadlift.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F5316ED23985578002D5F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5316E723985578002D5F94 = {
+			isa = PBXGroup;
+			children = (
+				3F5316F223985578002D5F94 /* PersonalTrainer */,
+				3F5316F123985578002D5F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5316F123985578002D5F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F5316F023985578002D5F94 /* PersonalTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5316F223985578002D5F94 /* PersonalTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				3F5316F323985578002D5F94 /* AppDelegate.swift */,
+				3F5316F523985578002D5F94 /* ViewController.swift */,
+				3F2953B52398872A00324363 /* WorkoutDatabase.swift */,
+				3F691B81239AE5AF0096DFDA /* DetailOfPart.swift */,
+				3F691B8F239B125E0096DFDA /* MakeMyRoutine.swift */,
+				3F691B85239AEED50096DFDA /* barbell shoulder press.png */,
+				3F691B93239B33DD0096DFDA /* side lateral raise.png */,
+				3F691B95239B35070096DFDA /* armpit row.png */,
+				3F8BBECA239EBCDE00B070DF /* barbell bench press.png */,
+				3F8BBECC239EBD3900B070DF /* lat pull down.png */,
+				3F8BBECF239EBD3F00B070DF /* pull up.png */,
+				3F8BBED4239EBECA00B070DF /* barbell deadlift.png */,
+				3F8BBECD239EBD3C00B070DF /* smith machine squat.png */,
+				3F691B8B239B058A0096DFDA /* left.png */,
+				3F691B8C239B058B0096DFDA /* right.png */,
+				3F5316F723985578002D5F94 /* Main.storyboard */,
+				3F5316FA23985584002D5F94 /* Assets.xcassets */,
+				3F5316FC23985584002D5F94 /* LaunchScreen.storyboard */,
+				3F5316FF23985584002D5F94 /* Info.plist */,
+			);
+			path = PersonalTrainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F5316EF23985578002D5F94 /* PersonalTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F53170223985584002D5F94 /* Build configuration list for PBXNativeTarget "PersonalTrainer" */;
+			buildPhases = (
+				3F5316EC23985578002D5F94 /* Sources */,
+				3F5316ED23985578002D5F94 /* Frameworks */,
+				3F5316EE23985578002D5F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalTrainer;
+			productName = PersonalTrainer;
+			productReference = 3F5316F023985578002D5F94 /* PersonalTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F5316E823985578002D5F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F5316EF23985578002D5F94 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F5316EB23985578002D5F94 /* Build configuration list for PBXProject "PersonalTrainer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F5316E723985578002D5F94;
+			productRefGroup = 3F5316F123985578002D5F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5316EF23985578002D5F94 /* PersonalTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F5316EE23985578002D5F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F691B86239AEED60096DFDA /* barbell shoulder press.png in Resources */,
+				3F691B96239B35070096DFDA /* armpit row.png in Resources */,
+				3F8BBED5239EBECA00B070DF /* barbell deadlift.png in Resources */,
+				3F5316FE23985584002D5F94 /* LaunchScreen.storyboard in Resources */,
+				3F691B8D239B058B0096DFDA /* left.png in Resources */,
+				3F8BBED0239EBD3F00B070DF /* lat pull down.png in Resources */,
+				3F8BBECB239EBCDE00B070DF /* barbell bench press.png in Resources */,
+				3F5316FB23985584002D5F94 /* Assets.xcassets in Resources */,
+				3F8BBED1239EBD3F00B070DF /* smith machine squat.png in Resources */,
+				3F5316F923985578002D5F94 /* Main.storyboard in Resources */,
+				3F691B8E239B058B0096DFDA /* right.png in Resources */,
+				3F691B94239B33DD0096DFDA /* side lateral raise.png in Resources */,
+				3F8BBED3239EBD3F00B070DF /* pull up.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5316EC23985578002D5F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F691B82239AE5AF0096DFDA /* DetailOfPart.swift in Sources */,
+				3F5316F623985578002D5F94 /* ViewController.swift in Sources */,
+				3F691B90239B125E0096DFDA /* MakeMyRoutine.swift in Sources */,
+				3F2953B62398872A00324363 /* WorkoutDatabase.swift in Sources */,
+				3F5316F423985578002D5F94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F5316F723985578002D5F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5316F823985578002D5F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F5316FC23985584002D5F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5316FD23985584002D5F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F53170023985584002D5F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F53170123985584002D5F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F53170323985584002D5F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PersonalTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PersonalTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F53170423985584002D5F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PersonalTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PersonalTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F5316EB23985578002D5F94 /* Build configuration list for PBXProject "PersonalTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F53170023985584002D5F94 /* Debug */,
+				3F53170123985584002D5F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F53170223985584002D5F94 /* Build configuration list for PBXNativeTarget "PersonalTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F53170323985584002D5F94 /* Debug */,
+				3F53170423985584002D5F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F5316E823985578002D5F94 /* Project object */;
+}
